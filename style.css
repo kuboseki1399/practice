@@ -407,6 +407,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
     align-items: center;
     gap: 2.5rem;
 }
@@ -415,7 +416,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 {
     background-color: var(--main-color);
     color: black;
-    height: 250px;
+    height: 100%;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
